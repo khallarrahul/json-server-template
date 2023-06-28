@@ -15,18 +15,24 @@ with a key pointing to an array of data, like this:
 
 ```json
 {
-  "toys": [
+  "personalEvents": [
     {
-      "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "name": "Wedding anniversary",
+      "venue": "Vancouver, BC, Canada",
+      "date": "2023-07-07",
+      "type": "Wedding",
+      "img": "https://plus.unsplash.com/premium_photo-1664790560123-c5f839457591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+      "attendee": 3,
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "Birthday Party",
+      "venue": "Burnaby, BC, Canada",
+      "date": "2023-07-29",
+      "type": "Birthday",
+      "img": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+      "attendee": 6,
+      "id": 2
     }
   ]
 }
